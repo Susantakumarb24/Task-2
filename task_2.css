@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#m-container{
+    border: 3px solid;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#heading{
+    border: 1px solid;
+    width: 25%;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#events-container{
+    
+    margin-bottom: 30px;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.event{
+    border: 2px;
+    border-color: rgb(5, 5, 5);
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+}
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+    font-weight: bold
+    
+}
+img {
+    border-radius: 50%;
+    width: 80px;
+  }
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-transform: capitalize;
+}
+#image-1{
+    background-color: rgb(243, 211, 68);
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #image-2{
+    background-color: rgb(75, 185, 197);
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #image-3{
+    background-color: rgb(108, 27, 132);
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #image-4{
+    background-color: rgb(12, 129, 31);
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  button{
+      background-color: rgb(59, 76, 233);
+      border: 0ch;
+      color: rgb(245, 230, 220);
+      border-radius: 3px;
+      padding: 10px;
+      cursor: pointer;
+      text-transform: capitalize;
+  }
+  .sold{
+    background-color: rgb(94, 88, 91);
+    border: 0ch;
+    color: beige;
+    border-radius: 3px;
+    padding: 10px;
+    text-transform: capitalize;
+  }
