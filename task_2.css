@@ -24,6 +24,12 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
+.event:hover {
+  border: 1px solid rgb(153, 153, 159);
+  box-shadow: 0px 2px 12px 12px rgba(2, 2, 2, 0.2);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+}
 #events-container{
     
     margin-bottom: 30px;
@@ -32,6 +38,8 @@ body{
     justify-content: center;
 }
 .event{
+  border: 1px solid rgb(153, 153, 159);
+  transition: transform 0.3s ease-in-out;
     border: 2px;
     border-color: rgb(5, 5, 5);
     border-style: solid;
@@ -102,6 +110,12 @@ p{
       padding: 10px;
       cursor: pointer;
       text-transform: capitalize;
+  }
+  button:hover {
+    border: 1px solid rgb(153, 153, 159);
+    box-shadow: 0px 2px 12px 12px rgba(2, 2, 2, 0.2);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
   }
   .sold{
     background-color: rgb(94, 88, 91);
